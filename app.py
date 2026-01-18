@@ -2,7 +2,7 @@
 # Engineer Alpha — 小白友好版：Signal / 风险 / 买点 / 加仓位（v1.2 + Crypto）
 # 仅供研究与教育用途，不构成投资建议
 
-from streamlit_autorefresh import st_autorefresh
+
 import math
 import numpy as np
 import pandas as pd
@@ -714,4 +714,5 @@ with tab_crypto:
         st.write("- " + s)
 
     st.warning("免责声明：本工具仅用于研究与教育，不构成投资建议。加密资产波动极大，请控制仓位与杠杆风险。")
+
 
